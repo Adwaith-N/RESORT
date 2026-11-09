@@ -1,0 +1,62 @@
+body { 
+    font-family: Georgia, serif; 
+    color: #333; }
+
+h1, h2, h3, h4, h5, .navbar-brand {
+     font-family: Georgia, serif; }
+
+.text-gold {
+     color: #c9a24b; }
+
+.btn-gold {
+     background: #c9a24b; 
+     border-color: #c9a24b; 
+     color: #fff; }
+.btn-gold:hover {
+     background: #b08a35; 
+     border-color: #b08a35; 
+     color: #fff; }
+
+.hero { 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    text-align: center; }
+.hero .overlay { 
+    background: rgba(0,0,0,.5); 
+    padding: 120px 0; }
+
+.page-hero .overlay { 
+    padding: 70px 0; }
+
+.card img { 
+    height: 220px; 
+    object-fit: cover; }
+
+.section { 
+    padding: 60px 0; }
+
+.nav-menu { 
+    display: none; 
+    width: 100%; }
+
+#menu:checked ~ .nav-menu { 
+    display: block; }
+
+.navbar-toggler { 
+    cursor: pointer; }
+    
+@media (min-width: 992px) { .nav-menu { display: flex !important; width: auto; } }
+
+.navbar .nav-link.active { 
+    color: #c9a24b !important; }
+
+footer { 
+    background: #212529; 
+    color: #adb5bd; }
+footer a { 
+    color: #adb5bd; 
+    text-decoration: none; }
+
+footer a:hover { 
+    color: #c9a24b; }
